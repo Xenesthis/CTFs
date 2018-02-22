@@ -16,6 +16,6 @@ In the pseudocode, you can see that the argument should be a string of 5 charact
 
 Now we can get the flag
 ```sh
-$ ./87ece32cf212ca63756402d7c103af5c1ca9fd8437247fd30dd27ad8c03fb802_executable g3zkm
+$ ./executable g3zkm
 Now here is your flag: 10453125111114
 ```

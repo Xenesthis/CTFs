@@ -10,7 +10,7 @@
 
 Let's try to run the program.
 ```
-$ ./70e2a1b332756922fcc09f0879b3271996b06434ed134749616b6035c0643d2a_adder 
+$ ./adder 
 Enter three numbers!
 1
 2
@@ -22,7 +22,7 @@ This program adds three numbers and print the flag if the sum is equal to some n
 
 Let's see what the assembly says.
 ```
-$ objdump -d -M intel 70e2a1b332756922fcc09f0879b3271996b06434ed134749616b6035c0643d2a_adder > objdump.txt
+$ objdump -d -M intel adder > objdump.txt
 ```
 In the main section: 
 ```
@@ -80,14 +80,14 @@ So we have to enter three numbers whose sum is equal to `0x539`, `1337` in decim
 The behavior of the program can be checked with `gdb`.
 
 ```
-$ gdb ./70e2a1b332756922fcc09f0879b3271996b06434ed134749616b6035c0643d2a_adder
+$ gdb ./adder
 // Set some breakpoints
 (gdb) b *0x400b9e
 Breakpoint 1 at 0x400b9e
 (gdb) b *0x400bc5
 Breakpoint 2 at 0x400bc5
 (gdb) run
-Starting program: /home/.../70e2a1b332756922fcc09f0879b3271996b06434ed134749616b6035c0643d2a_adder 
+Starting program: /home/.../adder 
 
 Enter three numbers!
 398 

@@ -1,5 +1,4 @@
-
-70e2a1b332756922fcc09f0879b3271996b06434ed134749616b6035c0643d2a_adder:     file format elf64-x86-64
+adder:     file format elf64-x86-64
 
 
 Disassembly of section .init:
