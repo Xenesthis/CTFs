@@ -87,7 +87,7 @@ Breakpoint 1 at 0x400b9e
 (gdb) b *0x400bc5
 Breakpoint 2 at 0x400bc5
 (gdb) run
-Starting program: /home/ak/Securitiie/CTF/2018/EasyCTF/Adder/70e2a1b332756922fcc09f0879b3271996b06434ed134749616b6035c0643d2a_adder 
+Starting program: /home/.../70e2a1b332756922fcc09f0879b3271996b06434ed134749616b6035c0643d2a_adder 
 
 Enter three numbers!
 398 
